@@ -3,6 +3,7 @@ defmodule AsyncStreamTestWeb.UserLive.Index do
 
   alias AsyncStreamTest.Accounts
   alias AsyncStreamTest.Accounts.User
+  alias AsyncStreamTestWeb.Wrapper
 
   @impl true
   def mount(_params, _session, socket) do
